@@ -100,7 +100,9 @@ This ensures **deep learning over shallow solving**.
 ## 🛠️ Languages Used
 
 - **C++** – STL-based, efficient, competitive programming style  
-- **Java** – Clean OOP-based, interview-focused style  
+- **Java** – Clean OOP-based, interview-focused style
+- **Python** – Readable, concise, and beginner-friendly
+
 
 Each solution is written to be:
 - Easy to understand
