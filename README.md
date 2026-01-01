@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Language-C++%20%7C%20Java-blue" />
+  <img src="https://img.shields.io/badge/Language-C%2B%2B%20%7C%20Java%20%7C%20Python-blue" />
   <img src="https://img.shields.io/badge/DSA-Practice-success" />
   <img src="https://img.shields.io/badge/Daily-Streak-orange" />
   <img src="https://img.shields.io/badge/Status-Active-green" />
