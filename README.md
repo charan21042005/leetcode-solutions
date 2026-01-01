@@ -44,28 +44,25 @@ Rather than just storing solutions, this repo documents **how to think**, **why 
 
 ## 📂 Repository Structure
 
-## Repository Structure
-
 ```text
 leetcode-solutions/
 ├── Daily-Streak/
 │   ├── Day-01_Plus-One/
 │   │   ├── README.md
 │   │   ├── solution.cpp
-│   │   └── solution.java
+│   │   ├── solution.java
+│   │   └── solution.py
 │   │
 │   ├── Day-02_<Problem-Name>/
 │   │   ├── README.md
 │   │   ├── solution.cpp
-│   │   └── solution.java
+│   │   ├── solution.java
+│   │   └── solution.py
 │   │
 │   └── ...
 │
 └── README.md
 ```
-
-
-
 
 ---
 
