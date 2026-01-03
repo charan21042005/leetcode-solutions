@@ -342,23 +342,18 @@ Final answer:
 ✔ Confirms recurrence correctness
 
 ## ✅ Final Algorithm Summary
-
+```cpp
 same = 6
-
 diff = 6
 
 for i from 2 to N:
-
 newSame = same * 3 + diff * 2
-
 newDiff = same * 2 + diff * 2
-
 same = newSame % MOD
-
 diff = newDiff % MOD
 
 return (same + diff) % MOD
-
+```
 
 ---
 
