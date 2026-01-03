@@ -1,5 +1,7 @@
 # Day 01 – Plus One
 
+🟢 **Difficulty:** Easy
+
 🔗 **Problem Link:**  
 https://leetcode.com/problems/plus-one/description/?envType=daily-question&envId=2026-01-01
 
@@ -135,7 +137,8 @@ Output:
 
 ---
 
-📁 **Files in this folder:**
-- `solution.cpp` → C++ implementation
-- `solution.java` → Java implementation
-- `solution.py` → Python implementation
+## 📂 Files in this folder
+
+- 📄 [Solution.cpp](Solution.cpp)
+- 📄 [Solution.java](Solution.java)
+- 📄 [Solution.py](Solution.py)
