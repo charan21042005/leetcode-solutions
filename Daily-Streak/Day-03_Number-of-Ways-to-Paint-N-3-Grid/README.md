@@ -357,7 +357,8 @@ return (same + diff) % MOD
 
 ---
 
-📁 **Files in this folder:**
-- `solution.cpp`
-- `solution.java`
-- `solution.py`
+## 📂 Files in this folder
+
+- 📄 [`solution.cpp`](./solution.cpp) — C++ implementation
+- 📄 [`solution.java`](./solution.java) — Java implementation
+- 📄 [`solution.py`](./solution.py) — Python implementation
