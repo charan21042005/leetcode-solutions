@@ -1,5 +1,7 @@
 # Day 02 – N Repeated Element in Size 2N Array
 
+🟢 **Difficulty:** Easy
+
 🔗 **Problem Link:**  
 https://leetcode.com/problems/n-repeated-element-in-size-2n-array/description/?envType=daily-question&envId=2026-01-02
 
@@ -220,7 +222,9 @@ Return 5
 
 ---
 
-📁 **Files in this folder:**
-- `solution.cpp` → C++ implementation
-- `solution.java` → Java implementation
-- `solution.py` → Python implementation
+## 📂 Files in this folder
+
+- 📄 [Solution.cpp](Solution.cpp)
+- 📄 [Solution.java](Solution.java)
+- 📄 [Solution.py](Solution.py)
+
