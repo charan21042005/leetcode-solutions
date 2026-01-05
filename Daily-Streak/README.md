@@ -42,10 +42,11 @@ Each **Day-XX** folder includes:
 | Day 01 | Plus One | 🟢 Easy | [Link](https://leetcode.com/problems/plus-one/) | 📂 [Open](./Day-01_Plus-One) |
 | Day 02 | N Repeated Element in Size 2N Array | 🟢 Easy | [Link](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/) | 📂 [Open](./Day-02_N-Repeated-Element-in-Size-2N-Array) |
 | Day 03 | Number of Ways to Paint N×3 Grid | 🔴 Hard | [Link](https://leetcode.com/problems/number-of-ways-to-paint-n-3-grid/) | 📂 [Open](./Day-03_Number-of-Ways-to-Paint-N-3-Grid) |
-| Day 04 | Four Divisors | 🟡 Medium | [Link](https://leetcode.com/problems/four-divisors/) | 📂 [Open](./Day-04_Four-Divors) |
-| Day 05 | — | — | — | — |
+| Day 04 | Four Divisors | 🟡 Medium | [Link](https://leetcode.com/problems/four-divisors/) | 📂 [Open](./Day-04_Four-Divisors) |
+| Day 05 | Maximum Matrix Sum | 🟡 Medium | [Link](https://leetcode.com/problems/maximum-matrix-sum/) | 📂 [Open](./Day-05_Maximum-Matrix-Sum) |
 
 📌 *This table is updated daily as part of the streak.*
+
 
 ---
 
