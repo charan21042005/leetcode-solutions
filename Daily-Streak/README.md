@@ -44,8 +44,10 @@ Each **Day-XX** folder includes:
 | Day 03 | Number of Ways to Paint N×3 Grid | 🔴 Hard | [Link](https://leetcode.com/problems/number-of-ways-to-paint-n-3-grid/) | 📂 [Open](./Day-03_Number-of-Ways-to-Paint-N-3-Grid) |
 | Day 04 | Four Divisors | 🟡 Medium | [Link](https://leetcode.com/problems/four-divisors/) | 📂 [Open](./Day-04_Four-Divisors) |
 | Day 05 | Maximum Matrix Sum | 🟡 Medium | [Link](https://leetcode.com/problems/maximum-matrix-sum/) | 📂 [Open](./Day-05_Maximum-Matrix-Sum) |
+| Day 06 | Maximum Level Sum of a Binary Tree | 🟡 Medium | [Link](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/) | 📂 [Open](./Day-06_Maximum-Level-Sum-of-a-Binary-Tree) |
 
 📌 *This table is updated daily as part of the streak.*
+
 
 
 ---
