@@ -46,6 +46,7 @@ Each **Day-XX** folder includes:
 | Day 05 | Maximum Matrix Sum | 🟡 Medium | [Link](https://leetcode.com/problems/maximum-matrix-sum/) | 📂 [Open](./Day-05_Maximum-Matrix-Sum) |
 | Day 06 | Maximum Level Sum of a Binary Tree | 🟡 Medium | [Link](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/) | 📂 [Open](./Day-06_Maximum-Level-Sum-of-a-Binary-Tree) |
 | Day 07 | Maximum Product of Splitted Binary Tree | 🔴 Hard | [Link](https://leetcode.com/problems/maximum-product-of-splitted-binary-tree/) | 📂 [Open](./Day-07_Maximum-Product-of-Splitted-Binary-Tree) |
+| Day 08 | Max Dot Product of Two Subsequences | 🔴 Hard | [Link](https://leetcode.com/problems/max-dot-product-of-two-subsequences/) | 📂 [Open](./Day-08_Max-Dot-Product-of-Two-Subsequences) |
 
 📌 *This table is updated daily as part of the streak.*
 
