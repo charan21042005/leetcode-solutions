@@ -49,9 +49,9 @@ Each **Day-XX** folder includes:
 | Day 08 | Max Dot Product of Two Subsequences | 🔴 Hard | [Link](https://leetcode.com/problems/max-dot-product-of-two-subsequences/) | 📂 [Open](./Day-08_Max-Dot-Product-of-Two-Subsequences) |
 | Day 09 | Smallest Subtree with All the Deepest Nodes | 🟡 Medium | [Link](https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/) | 📂 [Open](./Day-09_Smallest-Subtree-with-All-the-Deepest-Nodes) |
 | Day 10 | Minimum ASCII Delete Sum for Two Strings | 🟡 Medium | [Link](https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/) | 📂 [Open](./Day-10_Minimum-ASCII-Delete-Sum-for-Two-Strings) |
+| Day 11 | Maximal Rectangle | 🔴 Hard | [Link](https://leetcode.com/problems/maximal-rectangle/) | 📂 [Open](./Day-11_Maximal-Rectangle) |
 
 📌 *This table is updated daily as part of the streak.*
-
 
 
 ---
