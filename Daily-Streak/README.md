@@ -50,6 +50,8 @@ Each **Day-XX** folder includes:
 | Day 09 | Smallest Subtree with All the Deepest Nodes | 🟡 Medium | [Link](https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/) | 📂 [Open](./Day-09_Smallest-Subtree-with-All-the-Deepest-Nodes) |
 | Day 10 | Minimum ASCII Delete Sum for Two Strings | 🟡 Medium | [Link](https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/) | 📂 [Open](./Day-10_Minimum-ASCII-Delete-Sum-for-Two-Strings) |
 | Day 11 | Maximal Rectangle | 🔴 Hard | [Link](https://leetcode.com/problems/maximal-rectangle/) | 📂 [Open](./Day-11_Maximal-Rectangle) |
+| Day 12 | Minimum Time Visiting All Points | 🟢 Easy | [Link](https://leetcode.com/problems/minimum-time-visiting-all-points/) | 📂 [Open](./Day-12_Minimum-Time-Visiting-All-Points) |
+
 
 📌 *This table is updated daily as part of the streak.*
 
