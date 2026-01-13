@@ -144,13 +144,36 @@ Area_below(k) = Total_area / 2
 
 ---
 
-## 🧠 Strategy Overview (Optimal)
+## 🧠 Correct Strategy (Sweep Line with Area Density)
 
-1️⃣ Compute **total area** of all squares  
-2️⃣ Sort squares by their **bottom y-coordinate**  
-3️⃣ Sweep from bottom to top, accumulating area  
-4️⃣ Find the y-coordinate where accumulated area reaches `total_area / 2`  
-5️⃣ If it happens inside a square, compute exact `k` using partial area formula  
+Instead of adding square areas one by one, we must account for the fact that
+**squares can overlap vertically**.
+
+So we use a **sweep-line approach on the y-axis**:
+
+1. For each square:
+   - Add an event at `y = bottom` with `+side`
+   - Add an event at `y = bottom + side` with `-side`
+2. Sort all events by y-coordinate
+3. Sweep from bottom to top while maintaining:
+   - `current_width` = total horizontal coverage at that height
+4. For each consecutive y-interval:
+   - Area added = `(y_next - y_current) × current_width`
+5. Stop when accumulated area reaches `total_area / 2`
+6. Compute the exact cut position using proportional height
+
+
+## ⚠️ Common Mistake (Important)
+
+A common incorrect approach is to:
+- Sort squares by bottom y-coordinate
+- Add full square areas sequentially
+
+❌ This fails when squares **overlap in the y-direction**.
+
+✔ The correct solution must treat area accumulation as **continuous over y**,
+which is why a **sweep-line with events** is required.
+
 
 ---
 
