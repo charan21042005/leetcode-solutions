@@ -52,6 +52,8 @@ Each **Day-XX** folder includes:
 | Day 11 | Maximal Rectangle | 🔴 Hard | [Link](https://leetcode.com/problems/maximal-rectangle/) | 📂 [Open](./Day-11_Maximal-Rectangle) |
 | Day 12 | Minimum Time Visiting All Points | 🟢 Easy | [Link](https://leetcode.com/problems/minimum-time-visiting-all-points/) | 📂 [Open](./Day-12_Minimum-Time-Visiting-All-Points) |
 | Day 13 | Separate Squares I | 🟡 Medium | [Link](https://leetcode.com/problems/separate-squares-i/) | 📂 [Open](./Day-13_Separate-Squares-I) |
+| Day 14 | Separate Squares II | 🔴🔴 Very Hard | [Link](https://leetcode.com/problems/separate-squares-ii/) | 📂 [Open](./Day-14_Separate-Squares-II) |
+
 
 
 
