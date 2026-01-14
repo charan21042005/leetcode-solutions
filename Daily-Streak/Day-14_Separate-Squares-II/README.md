@@ -1,9 +1,31 @@
 # Day 14 – Separate Squares II  
-🔴 **Difficulty:** Hard  
+🔴🔴  **Difficulty:** Hard  
 
 🧠 **Note:** This is considered one of the *toughest geometry problems on LeetCode*.  
 It requires combining **sweep line**, **segment tree**, and **union-area computation**,  
 where even small mistakes in event ordering or initialization can lead to **Wrong Answer or TLE**.
+
+📚 **Learning Note & References**
+
+This problem is **extremely challenging** and involves advanced concepts that are easy to get wrong
+without prior exposure to **sweep-line algorithms and segment trees for union-area computation**.
+
+To ensure correctness and deepen understanding, the final solution and explanation were refined
+after studying high-quality references:
+
+- 📘 **Reference Solution Source:**  
+  https://walkccc.me/LeetCode/problems/3454/
+
+- 🎥 **Helpful Video Explanations:**  
+  1. https://www.youtube.com/watch?v=FmmuMixoG68  
+  2. https://www.youtube.com/watch?v=8U6fqTb9EhE  
+
+> ⚠️ This problem could not be solved to my own standards on the first attempt.  
+> After careful study of the above resources, the solution was **reimplemented from scratch**
+> with full understanding, detailed documentation, and clean structure.
+
+This README reflects that **learning process**, not just the final answer.
+
 
 🔗 **Problem Link:**  
 https://leetcode.com/problems/separate-squares-ii/description/?envType=daily-question&envId=2026-01-14
