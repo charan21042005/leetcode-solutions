@@ -1,6 +1,10 @@
 # Day 14 – Separate Squares II  
 🔴 **Difficulty:** Hard  
 
+🧠 **Note:** This is considered one of the *toughest geometry problems on LeetCode*.  
+It requires combining **sweep line**, **segment tree**, and **union-area computation**,  
+where even small mistakes in event ordering or initialization can lead to **Wrong Answer or TLE**.
+
 🔗 **Problem Link:**  
 https://leetcode.com/problems/separate-squares-ii/description/?envType=daily-question&envId=2026-01-14
 
