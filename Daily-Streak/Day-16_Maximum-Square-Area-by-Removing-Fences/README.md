@@ -91,21 +91,38 @@ This problem tests:
 - Boundary handling
 
 ---
+## ⚠️ Common Pitfall (Why Many Solutions Fail)
 
+A very common mistake is:
+- Taking the largest vertical gap
+- Taking the largest horizontal gap
+- Using `min()` of the two
+
+❌ This is WRONG.
+
+A square requires the **same side length** in both directions.
+
+✔ The correct approach checks **common distances**, not independent gaps.
+
+
+
+---
+
+### ✅ NEW SECTION (PASTE THIS IN THE SAME PLACE)
+
+```md
 ## 🧠 Key Observation (Most Important)
 
-> A square is completely determined by its **side length**.
+> A square is valid **only if the same side length exists in BOTH directions**.
 
-So instead of thinking in **2D**, we reduce the problem into **two independent 1D problems**:
-- Maximum vertical distance (height)
-- Maximum horizontal distance (width)
+That means:
+- A vertical distance `d` must exist between **two horizontal fences**
+- The **same distance `d`** must exist between **two vertical fences**
 
-Then:
-```cpp
-square side = min(maxHeight, maxWidth)
+⚠️ Taking the maximum gap independently in each direction is **NOT sufficient**.
 
-square area = side × side
-```
+We must find the **maximum COMMON distance** present in both directions.
+
 
 ---
 ## ❌ Approach 1: Brute Force (Not Practical)
@@ -157,37 +174,34 @@ The square side is limited by the **smaller** of the two.
 ---
 
 ## ✅ Optimal Greedy Approach (USED)
-🔹 Strategy
-1. Add **boundary fences**:
-    * Horizontal → `1` and `m`
-    * Vertical → `1` and `n`
-2. Sort fence positions
-3. Compute **maximum consecutive gap**
-4. Square side = **min(maxHeight, maxWidth)**
-5. Return **side × side** (modulo)
+
+### 🔹 Strategy (Correct & Working)
+
+1. Add **boundary fences** (`1` and `m` / `n`)
+2. Sort all fence positions
+3. Compute **ALL possible distances** between fence pairs
+4. Store all horizontal distances in a set
+5. Check vertical distances and keep the **maximum distance that exists in BOTH**
+6. Square area = `side × side` (modulo)
 
 
----
-
-
-## 🔁 Geometry → 1D Reduction
-
-### Vertical Direction (Height)
-
-- Horizontal fences split the field into vertical strips
-- Removing fences merges strips
-- We want the **maximum continuous vertical gap**
-
-### Horizontal Direction (Width)
-
-- Vertical fences split the field into horizontal strips
-- Removing fences merges strips
-- We want the **maximum continuous horizontal gap**
-
-👉 The problem becomes:
-> **Find the maximum distance between two remaining fences**
 
 ---
+
+
+## 🔁 Geometry → 1D Reduction (Correct Interpretation)
+
+We do NOT rely on consecutive gaps.
+
+Instead, we consider:
+- Every possible distance between two horizontal fences
+- Every possible distance between two vertical fences
+
+The square side length must be:
+> **A distance that appears in BOTH sets**
+
+This guarantees a valid square.
+
 
 ## 🧱 Understanding Fences Clearly
 
@@ -218,42 +232,32 @@ This greedy choice is **always optimal**.
 
 ---
 
-## 🧮 Step-by-Step Strategy
+## 🧮 Step-by-Step Strategy (FINAL)
 
 ### 1️⃣ Add Boundary Fences
-
-For horizontal:
-```text
-1, hFences..., m
-
-For vertical:
-1, vFences..., n
+```cpp
+- Horizontal: `1` and `m`
+- Vertical: `1` and `n`
 ```
 
 ### 2️⃣ Sort Fence Positions
 
-Sorting allows us to easily compute gaps between adjacent fences.
-
-### 3️⃣ Compute Maximum Gap
-
-For a sorted list `fences`:
+### 3️⃣ Compute ALL Distances
 ```cpp
-maxGap = max(fences[i] - fences[i-1])
-```
-Do this separately for:
+For horizontal fences:
+for every pair (i, j):
+    store (h[j] - h[i])
 
-* Horizontal fences → `maxHeight`
+For vertical fences:
 
-* Vertical fences → `maxWidth`
-
-### 4️⃣ Determine Square Possibility
-```cpp
-side = min(maxHeight, maxWidth)
+for every pair (i, j):
+    if (v[j] - v[i]) exists in horizontalDistances:
+        update maxSide
 ```
 
-* If `side == 0` → no square possible → return `-1`
-
-* Else return `(side * side) % MOD`
+### 4️⃣ Final Answer
+* If no common distance → return `-1`
+* Else → return `(maxSide × maxSide) % MOD`
 
 ## 🧪 Example Walkthrough
 Example
@@ -290,15 +294,23 @@ add 1 and n to vFences
 sort hFences
 sort vFences
 
-maxHeight = max(hFences[i] - hFences[i-1])
-maxWidth  = max(vFences[i] - vFences[i-1])
+horizontalDistances = empty set
 
-side = min(maxHeight, maxWidth)
+for i < j in hFences:
+    horizontalDistances.add(h[j] - h[i])
 
-if side == 0:
+maxSide = -1
+
+for i < j in vFences:
+    d = v[j] - v[i]
+    if d in horizontalDistances:
+        maxSide = max(maxSide, d)
+
+if maxSide == -1:
     return -1
 else:
-    return (side * side) % MOD
+    return (maxSide * maxSide) % MOD
+
 ```
 
 ## 🧪 Dry Run Example
