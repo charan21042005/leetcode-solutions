@@ -108,8 +108,6 @@ A square requires the **same side length** in both directions.
 
 ---
 
-### ✅ NEW SECTION (PASTE THIS IN THE SAME PLACE)
-
 ## 🧠 Key Observation (Most Important)
 
 > A square is valid **only if the same side length exists in BOTH directions**.
