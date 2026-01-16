@@ -54,6 +54,8 @@ Each **Day-XX** folder includes:
 | Day 13 | Separate Squares I | 🟡 Medium | [Link](https://leetcode.com/problems/separate-squares-i/) | 📂 [Open](./Day-13_Separate-Squares-I) |
 | Day 14 | Separate Squares II | 🔴🔴 Very Hard | [Link](https://leetcode.com/problems/separate-squares-ii/) | 📂 [Open](./Day-14_Separate-Squares-II) |
 | Day 15 | Maximize Area of Square Hole in Grid | 🟡 Medium | [Link](https://leetcode.com/problems/maximize-area-of-square-hole-in-grid/) | 📂 [Open](./Day-15_Maximize-Area-of-Square-Hole-in-Grid) |
+| Day 16 | Maximum Square Area by Removing Fences From a Field | 🟡 Medium | [Link](https://leetcode.com/problems/maximum-square-area-by-removing-fences-from-a-field/) | 📁 [Open](./Day-16_Maximum-Square-Area-by-Removing-Fences-From-a-Field) |
+
 
 
 
