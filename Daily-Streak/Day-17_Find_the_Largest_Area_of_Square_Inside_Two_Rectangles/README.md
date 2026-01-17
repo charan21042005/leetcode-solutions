@@ -61,6 +61,7 @@ At first glance, it looks like:
 - Possibly needs advanced data structures
 
 But in reality:
+
 ✅ Constraints are small  
 ✅ Simple math works  
 ✅ Brute force is acceptable  
